@@ -1,0 +1,64 @@
+ #azul{
+        position:absolute;
+        width: 200px;
+        height: 100px;
+        background-color: blue;
+        border: Spx solid rgb(0, 8, 255);
+        text-align: center;
+        top: 10px;
+        left: 300px;
+        z-index: 1;
+
+    }
+
+    #vermelho{
+        position:absolute;
+        width: 800px;
+        height: 100px;
+        background-color: rgb(255, 0, 0);
+        border: Spx solid rgb(255, 0, 0);
+        text-align: center;
+        top: 10px;
+        left: 500px;
+        z-index: 1;
+
+    }
+
+     #verde{
+        position:absolute;
+        width: 1000px;
+        height: 50px;
+        background-color:green;
+        text-align: center;
+        top: 110px;
+        left: 300px;
+        z-index: 1;
+}
+
+     #amarela{
+        position:absolute;
+        width: 990px;
+        height: 500px;
+        background-color:rgb(204, 255, 0);
+        border: 5px solid red;
+        text-align: center;
+        top: 150px;
+        left: 300px;
+        z-index: 1;
+}
+
+#cinza{
+        position:absolute;
+        width: 1000px;
+        height: 50px;
+        background-color:rgb(111, 118, 135);
+        text-align: center;
+        top: 660px;
+        left: 300px;
+        z-index: 1;
+}
+
+
+
+
+     
