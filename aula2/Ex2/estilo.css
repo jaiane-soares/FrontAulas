@@ -1,0 +1,222 @@
+body {
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+
+       
+        #topo-laranja {
+            position: absolute;
+            width: 1200px;
+            height: 370px;
+            background-color: #c64565;
+            top: 10;
+            left: 160px;
+            z-index: 1;
+        }
+
+       
+        #barra {
+            position: absolute;
+            width: 650px;
+            height: 40px;
+            background-color: rgb(255, 255, 255);
+            text-align: center;
+            top: 130px; 
+            left: 400px;
+            z-index: 1;
+        }
+
+        #quadradinho {
+            position: absolute;
+            width: 100px; 
+            height: 40px;
+            background-color: rgb(67, 60, 60);
+           text-align: center;
+            top: 130px;
+            left: 1050px; 
+            z-index: 1;
+        }
+
+        
+    
+         #quadradinho2 {
+            position: absolute;
+            width: 200px;
+            height: 40px;
+            background-color: rgb(215, 201, 201);
+            
+            text-align: center;
+            top: 400px; 
+            left: 300px;
+            z-index: 1;
+        }
+
+         #quadradinho3 {
+            position: absolute;
+            width: 200px;
+            height: 40px;
+            background-color: rgb(220, 213, 213);
+            text-align: center;
+            top: 400px; 
+            left: 550px;
+            z-index: 1;
+        }
+
+         #quadradinho4 {
+            position: absolute;
+            width: 200px;
+            height: 40px;
+            background-color: rgb(234, 226, 226);
+            text-align: center;
+            top: 400px; 
+            left: 800px;
+            z-index: 1;
+        }
+
+         #quadradinho5 {
+            position: absolute;
+            width: 200px;
+            height: 40px;
+            background-color: rgb(207, 196, 196);
+            text-align: center;
+            top: 400px; 
+            left: 1050px;
+            z-index: 1;
+        }
+
+        #retangulo1 {
+            position: absolute;
+            width: 120px;
+            height: 15px;
+            background-color: rgb(0, 0, 0);
+            text-align: center;
+            top: 410px; 
+            left: 340px;
+            z-index: 2;
+        }
+
+        #retangulo2 {
+            position: absolute;
+            width: 120px;
+            height: 15px;
+            background-color: rgb(0, 0, 0);
+            text-align: center;
+            top: 410px; 
+            left: 590px;
+            z-index: 2;
+        }
+
+        #retangulo3 {
+            position: absolute;
+            width: 120px;
+            height: 15px;
+            background-color: rgb(0, 0, 0);
+            text-align: center;
+            top: 410px; 
+            left: 830px;
+            z-index: 2;
+        }
+
+        #retangulo4{
+            position: absolute;
+            width: 120px;
+            height: 15px;
+            background-color: rgb(0, 0, 0);
+            text-align: center;
+            top: 410px; 
+            left: 1090px;
+            z-index: 2;
+        }
+
+
+        #salmon{
+            position: absolute;
+            width: 200px;
+            height: 200px;
+            background-color: rgb(219, 83, 83);
+            text-align: center;
+            top: 500px; 
+            left: 250px;
+            z-index: 1;
+        }
+
+        
+        #cinza{
+            position: absolute;
+            width: 200px;
+            height: 200px;
+            background-color: rgb(138, 135, 135);
+            text-align: center;
+            top: 500px; 
+            left: 500px;
+            z-index: 1;
+        }
+
+        
+        #azul{
+            position: absolute;
+            width: 200px;
+            height: 200px;
+            background-color: rgb(20, 53, 201);
+            text-align: center;
+            top: 500px; 
+            left: 750px;
+            z-index: 1;
+        }
+
+        
+        #cinzaGrande{
+            position: absolute;
+            width: 300px;
+            height: 400px;
+            background-color: rgb(72, 71, 71);
+            text-align: center;
+            top: 500px; 
+            left: 1030px;
+            z-index: 1;
+        }
+
+        
+        #azul2{
+            position: absolute;
+            width: 200px;
+            height: 150px;
+            background-color: rgb(15, 128, 221);
+            text-align: center;
+            top: 750px; 
+            left: 250px;
+            z-index: 1;
+        }
+
+        #salmonGrande{
+            position: absolute;
+            width: 450px;
+            height: 150px;
+            background-color: rgb(181, 67, 67);
+            text-align: center;
+            top: 750px; 
+            left: 500px;
+            z-index: 1;
+        }
+         #QuadradoFundo{
+            position: absolute;
+            width: 1200px;
+            height: 600px;
+            background-color: rgb(255, 255, 255);
+            top: 390px; 
+            left: 158px;
+            z-index: 0;
+        }
+
+
+
+
+
+
+
+
+
+
+
+
