@@ -3,37 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Layout para Débora</title>
+    <title>Layout Estruturado</title>
     <link rel="stylesheet" href="exDois.css">
 </head>
 <body>
 
-    <header class="header">HEADER</header>
+    <header id="header-main">HEADER</header>
     
-    <nav class="nav">NAV</nav>
-
-    <main class="containerr">
-        <nav class="side-nav">NAV</nav>
-
-        <section class="section">
-            SECTION
-            <header class="inner-header">HEADER</header>
+    <nav id="nav-top">NAV</nav>
+    
+    <div id="container">
+        <nav id="nav-left">NAV</nav>
+        
+        <main id="content">
+            <header id="header-inner">HEADER</header>
             
-            <div class="div">DIV</div>
+            <div id="div-hero">DIV</div>
             
-            <p class="paragr">Parágrafo</p>
+            <div id="paragraph-box">Parágrafo</div>
             
-            <div class="bot">
-                <div class="quadra">DIV</div>
-                <div class="quadra">DIV</div>
-                <div class="quadra">DIV</div>
-            </div>
-        </section>
+            <section id="cards-container">
+                <div class="card">DIV</div>
+                <div class="card" id="card-center">DIV</div>
+                <div class="card">DIV</div>
+            </section>
+        </main>
+        
+        <aside id="aside-right">ASIDE</aside>
+    </div>
 
-        <aside class="aside">ASIDE</aside>
-    </main>
-
-    <footer class="footer">FOOTER</footer>
+    <footer id="footer-main">FOOTER</footer>
 
 </body>
 </html>
