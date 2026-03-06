@@ -1,0 +1,96 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    display: flex;
+    flex-direction: column; 
+}
+
+
+section, header, footer, main {
+    width: 100%;
+    
+    position: relative; 
+    display: block;     
+    margin-bottom: 5px;  
+}
+
+
+.section-limao {
+    background-color: #a4eb34;
+    height: 80px;
+}
+
+.section-vermelha {
+    background-color: #cc1414;
+    height: 290px;
+    padding: 20px;
+}
+
+.section-ciano {
+    background-color: #84e1e8;
+    height: 400px;
+    padding: 10px;
+}
+
+.section-laranja {
+    background-color: #c45d12;
+    height: 400px;
+    padding: 15px;
+}
+
+.section-amarela {
+    background-color: #fbff00;
+    height: 400px;
+    padding: 15px;
+}
+
+.section-preta {
+    background-color: #000;
+    height: 60px;
+}
+
+
+.container-flex {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    gap: 15px;
+}
+
+
+ .card-branco, .box-azul, .box-verde {
+    position: relative;
+    top: 0; 
+    flex: 1; 
+    height: 350px;
+}
+
+.card-rosa{
+    position: relative;
+    top: 0; 
+    flex: 1; 
+    height:250px;
+
+}
+
+.card-rosa { 
+    background-color: #bc8f8f; 
+}
+.card-branco {
+     background-color: #fff; 
+    border-radius: 5px; 
+    height: 350px;
+}
+.box-azul { 
+    background-color: #1a1a7a; 
+    color: white;
+ }
+.box-verde {
+     background-color: #40c0c0; 
+}
