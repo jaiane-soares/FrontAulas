@@ -76,12 +76,11 @@ section, header, footer, main {
     top: 0; 
     flex: 1; 
     height:250px;
-
-}
-
-.card-rosa { 
     background-color: #bc8f8f; 
+
 }
+
+
 .card-branco {
      background-color: #fff; 
     border-radius: 5px; 
