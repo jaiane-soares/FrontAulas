@@ -14,9 +14,8 @@ body {
 
 section, header, footer, main {
     width: 100%;
-    
     position: relative; 
-    display: block;     
+    display:block;     
     margin-bottom: 5px;  
 }
 
@@ -92,4 +91,21 @@ section, header, footer, main {
  }
 .box-verde {
      background-color: #40c0c0; 
+}
+
+@media (min-width: 768px) {
+    .container-flex {
+        flex-direction: row; 
+        justify-content: space-between;
+    }
+
+    .card-branco, .box-azul, .box-verde {
+        flex: 1; 
+        height: 350px;
+    }
+
+    .card-rosa {
+        flex: 1;
+        height: 250px;
+    }
 }

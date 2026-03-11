@@ -27,6 +27,7 @@ body {
 
 .nav ul {
     display: flex;
+    
     justify-content: space-around;
     list-style: none;
     padding: 10px 0;
@@ -34,6 +35,7 @@ body {
 
 
 .container {
+    flex-direction: column;
     display: flex;
     min-height: 500px;
 }
@@ -41,7 +43,7 @@ body {
 
 .left {
     background-color: #a9a9a9; 
-    width: 20%;
+    width: 100%;
 }
 
 .left ul li {
@@ -95,4 +97,33 @@ body {
     color: #fff;
     padding: 20px;
     text-align: center;
+}
+
+@media (min-width: 768px) {
+    .container {
+        flex-direction: row; 
+    }
+
+    .left {
+        width: 20%; 
+    }
+
+    .right {
+        width: 20%; 
+    }
+
+    .content {
+        width: 60%; 
+    }
+}
+
+
+@media (max-width: 480px) {
+    .grid {
+        flex-direction: column; 
+    }
+    .grid img {
+        width: 100%;
+        height: 150px;
+    }
 }
